@@ -48,18 +48,18 @@
 .title{
     color:#3A6B34;
     text-align: center;  
-    margin:  25px;
+    margin:  4rem 2rem;
 }
 
 .text{
     margin: 20px 50px;
     padding: 15px;
-    /* background-color: #cbd18f; */
     text-align: justify;
 }
 
+
 .grid{
-    /* margin-left: 50px; */
+    margin-bottom: 14rem;
     display: grid;
     grid-template-columns: auto auto auto auto;
     place-items: center;
@@ -74,6 +74,10 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 5px;
     color: #3A6B34;
+}
+.card a{
+    text-decoration: none;
+    color: black;
 }
 
 .card:hover{
